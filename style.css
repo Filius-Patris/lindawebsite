@@ -375,7 +375,6 @@ footer > ul > li {
 .product-element-img {
 	width: 30%;
 	height: min-content;
-	border: 1px solid red;
 }
 .product-element-text {
 	width: 60%;
