@@ -1,0 +1,25 @@
+
+/* ~~~ PRODUCT BOX ~~~ */
+.product-element-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.product-element-img {
+	width: 30%;
+	height: min-content;
+}
+.product-element-text {
+	width: 60%;
+	margin: 0;
+}
+@media only screen and (max-width: 768px) {
+	.product-element-img {
+		width: 100%;
+	}
+	.product-element-text {
+		width: 100%;
+	}
+}
