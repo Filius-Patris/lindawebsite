@@ -6,8 +6,8 @@ html {
 body {
 	background-color: #FFFFFF;
 	font-family: Catamaran;
- 	font-size: 1.2rem;
- 	height: 100%;
+	font-size: 1.2rem;
+	height: 100%;
 }
 
 p {
@@ -25,11 +25,11 @@ header {
 	margin: 0 auto;
 	padding: 20px 0;
 	position: sticky;
-  	top: 0;
+	top: 0;
 }
 
 header nav {
-  text-align: right;
+	text-align: right;
 }
 
 header nav ul {
@@ -52,7 +52,7 @@ header nav ul li a {
 	font-weight: 500;
 	text-decoration: none;
 	padding-right: 16px;
-		
+	
 }
 
 header nav ul li a:hover{
@@ -70,60 +70,60 @@ header .logo {
 	padding: 0px 30px 0 0px;
 	border-right: 2.5px solid #111;
 	float: left;
-	}
-	
+}
+
 
 .logo {
 	margin: 20px;
 }
 
 .button {
-		display: inline-block;
-		padding: 1rem 2rem;
-		color: black;
-		text-decoration: none;
-		border: 1px solid black;
-		transition: all 0.5s;
+	display: inline-block;
+	padding: 1rem 2rem;
+	color: black;
+	text-decoration: none;
+	border: 1px solid black;
+	transition: all 0.5s;
 	padding: 10px 50px;
-	}
-	
-	
-	.button:hover {
-		background: #4F7A91;
-		color: white;
-	}
+}
+
+
+.button:hover {
+	background: #4F7A91;
+	color: white;
+}
 
 @media only screen and (min-width: 1000px) {
-
-header {
+	
+	header {
 		height: 100px;
 		position: sticky;
 	}
 	
-header nav {
-  	text-align: right;
-}
-
-header nav ul {
-	margin: 20px 0px 0px 0px;
-	float: left;
-	padding-right: 100px;
-}
-
-header nav ul li a {
-	line-height: 60px;
-		
-}
-	
-header .header-grid {
-	display: block;
-	font-family: Catamaran;
-	font-size: 16px;
-	color: #111;
-	text-transform: uppercase;
-	line-height: 60px;
+	header nav {
+		text-align: right;
 	}
-
+	
+	header nav ul {
+		margin: 20px 0px 0px 0px;
+		float: left;
+		padding-right: 100px;
+	}
+	
+	header nav ul li a {
+		line-height: 60px;
+		
+	}
+	
+	header .header-grid {
+		display: block;
+		font-family: Catamaran;
+		font-size: 16px;
+		color: #111;
+		text-transform: uppercase;
+		line-height: 60px;
+	}
+	
 }
 
 
@@ -187,22 +187,22 @@ header .header-grid {
 	height: 250px;
 	position: relative;
 	color: white;
-  	margin-bottom: 3px;
+	margin-bottom: 3px;
 }
 
 .mega-banner-grid { 	
 	color: white;
-  	padding: 10px;
+	padding: 10px;
 	height: 272px;
-  	margin-bottom: 3px;
-  	text-shadow: 1px 1px 1px #00000066;
+	margin-bottom: 3px;
+	text-shadow: 1px 1px 1px #00000066;
 }
 
 .boxen {
-    display: grid;
-    grid-template-columns: 1fr ;
-    grid-gap: 10px; 
-  }
+	display: grid;
+	grid-template-columns: 1fr ;
+	grid-gap: 10px; 
+}
 
 
 .containerbox {
@@ -213,98 +213,98 @@ header .header-grid {
 
 @media only screen and (min-width: 768px) {
 	
-.wrapper{
-	width: 768px;
-	margin: 0 auto;
+	.wrapper{
+		width: 768px;
+		margin: 0 auto;
 	}
-.containerbox:hover::after {
-	background-color: aqua;
-	position: relative;
-	content: "";
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background: rgba(79,122,145,0.5);
-	}	
-
-.index-banner {
-	height: 450px;
-}
-	
-.index-banner h2 {
-	display: block;
-	width: 580px;
-	margin: 0 auto;
-}
-	
-.index-links {
-	padding-bottom: 20px;
-	overflow: hidden;
-	}
-	
-.index-links div {
-	margin: 20px 10px 0;
-	height: 130px;
-	background-color: #f2f2f2;
-	float: left;
-}
-
-.index-boxlink-squere {
-	width: calc(25% - 20px) !important;
+	.containerbox:hover::after {
+		background-color: aqua;
+		position: relative;
+		content: "";
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: rgba(79,122,145,0.5);
 	}	
 	
-.index-boxlink-rectangle {
-	width: calc(50% - 20px) !important;
+	.index-banner {
+		height: 450px;
+	}
+	
+	.index-banner h2 {
+		display: block;
+		width: 580px;
+		margin: 0 auto;
+	}
+	
+	.index-links {
+		padding-bottom: 20px;
+		overflow: hidden;
+	}
+	
+	.index-links div {
+		margin: 20px 10px 0;
+		height: 130px;
+		background-color: #f2f2f2;
+		float: left;
+	}
+	
+	.index-boxlink-squere {
+		width: calc(25% - 20px) !important;
+	}	
+	
+	.index-boxlink-rectangle {
+		width: calc(50% - 20px) !important;
 	}
 	.index-boxlink-rectangle-long {
-	width: calc(100 -20px) !important;
+		width: calc(100 -20px) !important;
 	}	
 	
-.index-links div h3 {
-	line-height: auto;
+	.index-links div h3 {
+		line-height: auto;
 	}
 	
 }
 
 @media only screen and (min-width: 1000px) {
-.wrapper {
+	.wrapper {
 		width:  1000px;
 		margin: 0 auto;
 	}
-
-.index-banner {
-	height: 450px;
-}
 	
-.index-banner h2 {
-	display: block;
-	width: 580px;
-	margin: 0 auto;
-}
-	
-.index-links {
-	padding-bottom: 20px;
-	overflow: hidden;
+	.index-banner {
+		height: 450px;
 	}
 	
-.index-links div {
-	margin: 20px 10px 0;
-	height: 230px;
-	background-color: #f2f2f2;
-	float: left;
-}
-
-.index-boxlink-squere {
-	width: calc(25% - 20px) !important;
+	.index-banner h2 {
+		display: block;
+		width: 580px;
+		margin: 0 auto;
+	}
+	
+	.index-links {
+		padding-bottom: 20px;
+		overflow: hidden;
+	}
+	
+	.index-links div {
+		margin: 20px 10px 0;
+		height: 230px;
+		background-color: #f2f2f2;
+		float: left;
+	}
+	
+	.index-boxlink-squere {
+		width: calc(25% - 20px) !important;
 	}	
 	
-.index-boxlink-rectangle {
-	width: calc(50% - 20px) !important;
+	.index-boxlink-rectangle {
+		width: calc(50% - 20px) !important;
 	}
 	
-.index-links div h3 {
-	line-height: 230px;
+	.index-links div h3 {
+		line-height: 230px;
 	}
 }
 .containerbox {
@@ -322,8 +322,8 @@ header .header-grid {
 }
 
 .mega-banner-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
 }
 
 .kontakt-rahmen {
@@ -337,7 +337,7 @@ footer {
 	width: calc(100%-80px);
 	padding: 40px 40px;
 	background: #FFF;
-  	color: black;
+	color: black;
 	height:5em;
 	display: table-cell;
 	position: relative;
@@ -351,8 +351,8 @@ footer > ul > li {
 .footer-sm {
 	width: 30px;
 	display: block;
-    margin-left: auto;
-    margin-right: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .footer-sm img {
@@ -361,7 +361,7 @@ footer > ul > li {
 }
 
 @media only screen and (min-width: 1000px) {
-
+	
 }
 
 
