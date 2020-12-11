@@ -52,6 +52,7 @@ header nav ul {
 nav li {
 	display: inline-block;
 	list-style: none;
+	margin-left: 1em;
 	/* padding-right: 0 16px; */
 }
 
