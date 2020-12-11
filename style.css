@@ -183,7 +183,8 @@ header .logo {
 /*Produkte*/
 
 .box1, .box2, .box3, .box4 {
-	margin: 5px;
+	margin: 20px;
+	margin-top: 40px;
 	color: white;
 	margin-bottom: 3px;
 }
@@ -377,6 +378,7 @@ footer > ul > li {
 }
 .product-element-text {
 	width: 60%;
+	margin: 0;
 }
 @media only screen and (max-width: 768px) {
 	.product-element-img {
