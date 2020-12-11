@@ -7,10 +7,7 @@ body {
 	background-color: #FFFFFF;
 	font-family: Catamaran;
  	font-size: 1.2rem;
-/* 	margin: 0;*/
  	height: 100%;
-	/* display: grid; */
-	/* grid-template-rows: auto 1fr auto; */
 }
 
 p {
@@ -41,7 +38,6 @@ header nav ul {
 	text-align: right;
 	width: fit-content;
 	float: left;
-/*	padding-right: 100px;*/
 }
 
 header nav ul li {
@@ -53,7 +49,6 @@ header nav ul li {
 
 header nav ul li a {
 	font-family: Catamaran;
-/*	font-size: 20px;*/
 	color: #111;
 	font-weight: 500;
 	text-decoration: none;
@@ -83,26 +78,6 @@ header .logo {
 	margin: 20px;
 }
 
-/*
-.header-grid {
-	display: grid;
-	grid-template-columns: 1fr auto;
-}
-.button {
-	background: #7993A0;
-	font-weight: bold;
-	padding: 10px 50px;
-	border: 0;
-	color: white;
-	border-radius: 6px;
-	cursor: pointer;
-	text-decoration: none;
-}
-.button:hover {
-	background: #ddd;
-}
-*/
-
 .button {
 		display: inline-block;
 		padding: 1rem 2rem;
@@ -118,14 +93,6 @@ header .logo {
 		background: #4F7A91;
 		color: white;
 	}
-
-/*
-.container {
-	max-width: 800px;
-	margin: 0 auto; 
-}
-}
-*/
 
 @media only screen and (min-width: 1000px) {
 
@@ -216,36 +183,7 @@ header .header-grid {
 
 /*Produkte*/
 
-/*
-
-.box1 { 
-	background-image: url("images/kuchenbacken_495x272.jpg");
-	background-size: cover;
-}
-
-.box2 { 
-	background-image: url("images/tee_495x272.jpg");
-  	background-size: cover;
-}
-*/
-
-/*
- .box3 { 
-	background-image: url("images/chogolat_495x272.jpg");
-  	background-size: cover;
-*/
-/*}*/
-
-/*
-.box4 { 
-	background-image: url("images/apfel_495x272.jpg");
-  	background-size: cover;
-}
-*/
-
 .box1, .box2, .box3, .box4 {
-	/* width: auto; */
-	/* float: left; */
 	margin: 5px;
 	height: 250px;
 	position: relative;
@@ -266,13 +204,6 @@ header .header-grid {
     grid-template-columns: 1fr ;
     grid-gap: 10px; 
   }
-
-/*
-.box-text {
-	color: black;
-	text-shadow: 1px 1px 1px black;
-}
-*/
 
 
 .containerbox {
@@ -412,7 +343,6 @@ footer {
 	display: table-cell;
 	position: relative;
 	text-align: center;
-/*	overflow: hidden;*/
 }
 
 footer > ul > li {
@@ -431,27 +361,12 @@ footer > ul > li {
 	margin-bottom: 10px;
 }
 
-
-/*
-@media screen and (min-width: 736px){
-	
-	.grid {
-	display: grid;
-	grid-template-columns: 1fr 500px 500px 1fr;
-	grid-template-rows: 1fr 1fr 1fr 1fr;
-  	grid-template-areas: 
-	  	". title title ." 
-		". header header ." 
-		". content content ." 
-		". footer footer ." ;
-}
-}
-*/
-
 @media only screen and (min-width: 1000px) {
 
 }
 
+
+/* ~~~ PRODUCT BOX ~~~ */
 .product-element-container {
 	display: flex;
 	flex-direction: row;
