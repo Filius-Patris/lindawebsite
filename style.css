@@ -373,7 +373,7 @@ footer > ul > li {
 }
 .product-element-img {
 	width: 30%;
-	height: auto;
+	height: min-content;
 	border: 1px solid red;
 }
 .product-element-text {
