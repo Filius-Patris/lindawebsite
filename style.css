@@ -370,6 +370,7 @@ footer > ul > li {
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	align-items: center;
 }
 .product-element-img {
 	width: 30%;
