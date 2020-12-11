@@ -59,9 +59,9 @@ header nav ul li a:hover{
 	color: #4F7A91;
 }
 
-header li:nth-child(1,2,3) a {
+/* header li:nth-child(1,2,3) a {
 	color: #4F7A91;
-}
+} */
 
 header .logo {
 	margin: 20px 0;
