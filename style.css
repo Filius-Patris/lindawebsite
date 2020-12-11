@@ -38,14 +38,15 @@ header nav ul {
 	text-align: right;
 	width: fit-content;
 	float: left;
-}
+} */
 
-header nav ul li {
+nav ul li {
 	display: inline-block;
 	list-style: none;
-	padding-right: 0 16px;
+	/* padding-right: 0 16px; */
 }
 
+/*
 header nav ul li a {
 	font-family: Catamaran;
 	color: #111;
